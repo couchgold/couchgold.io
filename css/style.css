@@ -57,3 +57,7 @@ h1 { line-height: 1.2; }
   color: var(--muted);
   font-size: 0.875rem;
 }
+
+h2 { margin-top: 2rem; font-size: 1.25rem; }
+h3 { font-size: 1rem; }
+.meta { color: var(--muted); font-size: 0.875rem; }
