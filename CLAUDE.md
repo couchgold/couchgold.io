@@ -20,3 +20,10 @@ und den Apps selbst zeigen hierher.
   Datenschutzerklärung und das Fehlen eines Cookie-Banners korrekt bleiben.
 - Keine externen Requests jeglicher Art. Die CSP nicht lockern.
 - Keine Formulare, die Daten an Dritte senden.
+
+## Hosting (seit 2026-11-27)
+- GitHub Pages aus dem öffentlichen Repo `couchgold/couchgold.io`, Branch `main`, Ordner `/`.
+- `CNAME` enthält `couchgold.io`, `.nojekyll` schaltet Jekyll ab. Veröffentlichen = `git push`.
+- Domain und DNS bleiben bei INWX. Mail (`hello@couchgold.io`) läuft über INWX-Webspace
+  (MX `smtp-in0/1.prod0.webspace.bz`); MX, SPF, DMARC und den Wildcard-Eintrag `*` nicht anfassen.
+- Vorher (bis 2026-11-27) lag die Seite auf dem INWX-Webspace (Upload per WebFTP).
